@@ -14,7 +14,7 @@ test.beforeAll(async({browser})=>{
 })
 test.afterAll(async()=>{
     // logout
-    await page.locator('#logout2').click()
+    await page.locator('#logout2').click();
 })
 
 test('homepagetest',async()=>{
